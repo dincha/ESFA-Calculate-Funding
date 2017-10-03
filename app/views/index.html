@@ -7,56 +7,106 @@
 {% block content %}
 
 <main id="content" role="main">
+
+
+  <div class="phase-banner">
+    <p>
+      <strong class="phase-tag">ALPHA</strong>
+      <span>This is a new service – your <a href="#">feedback</a> will help us to improve it.</span>
+    </p>
+  </div>
+
+  <div class="breadcrumbs">
+    <ol>
+      <li><a href="https://www.gov.uk/">Home</a></li>
+      <li><a href="https://www.gov.uk/government/organisations/hm-revenue-customs">HM Revenue & Customs</a></li>
+      <li><a href="https://www.gov.uk/government/organisations/hm-revenue-customs/contact">Contact HM Revenue & Customs</a></li>
+    </ol>
+  </div>
+
+
   <div class="grid-row">
     <div class="column-two-thirds">
 
       <h1 class="heading-xlarge">
-        The GOV.UK prototype kit
-        <span class="heading-secondary">{{releaseVersion}}</span>
-      </h1>{{releaseVersion | log }}
+        Inheritance Tax and probate
+      </h1>
+
+  <h2 class="heading-medium">Phone</h2>
       <p>
-        This kit lets you rapidly create HTML prototypes of GOV.UK services.
+        Call HMRC for advice on probate and Inheritance Tax following a death, including:
       </p>
 
+      <ul class="list list-bullet">
+        <li>understanding your Inheritance Tax responsibilities</li>
+        <li>confirming the forms you need</li>
+        <li>getting paper copies of forms</li>
+        <li>completing Inheritance Tax forms</li>
+      </ul>
+
+      <div class="form-group">
+        <div class="panel panel-border-narrow">
+          <p>
+            Telephone: <br> <b>0300 123 1072</b>
+          </p>
+          <p>
+            Outside UK: <br> <b>+44 300 123 1072</b>
+          </p>
+        </div>
+      </div>
+
       <p>
-        It contains all you need to prototype anything from simple static pages to complex, data-driven transactions.
+        Opening times: <br> 9am to 5pm, Monday to Friday Closed weekends and bank holidays
       </p>
+      <p>Closed weekends and bank holidays
+      </p>
+      <p><a href="https://www.gov.uk/call-charges">Find out about call charges</a></p>
 
-      <h2 class="heading-medium">About this page</h2>
+      <h2 class="heading-medium"> Webchat</h2>
+      <p>This service is for England only.</p>
+      <p>Advisers are available to chat. <a href="/">Speak to an adviser now.</a></p>
 
-      <p>We recommend you add links to your prototype to this page, rather than delete it.
-        You'll find this page in the kit at '/app/views/index.html'.</p>
-      <p>You can change the service name by editing the file '/app/config.js'.</p>
 
-			<h2 class="heading-medium">Examples and documentation</h2>
+      <h2 class="heading-medium">Post</h2>
 
-			<ul class="list list-bullet">
-				<li><a href="/docs/tutorials-and-examples">Example pages and documentation</a></li>
-				<li><a href="https://github.com/alphagov/govuk_prototype_kit">GitHub</a></li>
-			</ul>
+      <p>Write to HMRC with queries and correspondence about Inheritance Tax.</p>
+      <p>You don’t need to include a street name, city name or PO box when writing to this address.</p>
+      <p>Couriers should use a <a href="https://www.gov.uk/government/organisations/hm-revenue-customs/contact/couriers">different address.</a></p>
+      <p>There is a different <a href="https://www.gov.uk/government/organisations/hm-revenue-customs/contact/inheritance-tax-payments">address for Inheritance tax payments.</a></p>
+      <p>Probate forms should be sent to your local <a href="https://courttribunalfinder.service.gov.uk/search/">Probate Registry.</a></p>
 
-      <h2 class="heading-medium">Other resources</h2>
+      <div class="form-group">
+        <div class="panel panel-border-narrow">
+          <p>
+            Inheritance Tax <br> HM Revenue and Customs <br> BX9 1HT <br> United Kingdom
+          </p>
+        </div>
+      </div>
 
-			<ul class="list list-bullet">
-				<li>
-					<a href="https://govuk-elements.herokuapp.com/snippets/">
-						Guide to GOV.UK Elements
-					</a>
-				</li>
-				<li>
-					<a href="https://www.gov.uk/service-manual">
-						Service design manual
-					</a>
-				</li>
-				<li>
-					<a href="https://www.gov.uk/design-principles">
-						Government Digital Service Design Principles
-					</a>
-				</li>
-			</ul>
+      <p>Please give the HMRC reference number, or tell HMRC the full name and date of death of the person who has died.</p>
 
     </div>
+
+    <div class="column-third add-title-margin">
+      <aside class="govuk-related-items">
+        <h2 class="heading-medium"> Elsewhere on GOV.UK</h2>
+          <ul>
+            <li><a href="https://www.gov.uk/wills-probate-inheritance">Wills, probate and inheritance</a></li>
+            <li><a href="https://www.gov.uk/valuing-estate-of-someone-who-died">Valuing the estate of someone who's died</a></li>
+            <li><a href="https://www.gov.uk/after-a-death">What to do after someone dies</a></li>
+          </ul>
+
+          <h2 class="heading-medium"> Other contacts</h2>
+            <ul>
+              <li><a href="https://www.gov.uk/government/organisations/hm-revenue-customs/contact/probate-and-inheritance-tax-enquiries">Bereavement and deceased estate</a></li>
+              <li><a href="https://www.gov.uk/government/organisations/hm-revenue-customs/contact/inheritance-tax-payments">Inheritance Tax: payments</a></li>
+              <li><a href="https://www.gov.uk/government/organisations/hm-revenue-customs/contact/welsh-language-helplines">Treth Incwm, Hunanasesiad a mwy</a></li>
+            </ul>
+
+        </div>
+
   </div>
+
 </main>
 
 {% endblock %}
