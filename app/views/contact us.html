@@ -62,9 +62,34 @@
       </p>
       <p><a href="https://www.gov.uk/call-charges">Find out about call charges</a></p>
 
-      <h2 class="heading-medium"> Webchat</h2>
-      <p>This service is for England only.</p>
-      <p>Advisers are available to chat. <a href="/">Speak to an adviser now.</a></p>
+
+
+
+      <!-- Place this code snippet anywhere you want the button to appear in your page. If no button has been configured in the chat script, it will not show up nor take any space. -->
+      <div id="__8x8-chat-button-container-script_4223821759b1050b864a48.67463319"></div>
+
+      <!-- This script will not interfere with the button layout, you just need to include it in the same page. It must also be within the <body> section of the page, preferably just before the ending tag. -->
+      <script type="text/javascript">
+          var __8x8Chat = {
+              uuid: "script_4223821759b1050b864a48.67463319",
+              tenant: "bWluaXN0cnlvZmp1c3RpY2UwMQ",
+              channel: "CEChat",
+              domain: "https://vcc-eu3.8x8.com",
+              path: "/.",
+              buttonContainerId: "__8x8-chat-button-container-script_4223821759b1050b864a48.67463319",
+              align: "right"
+          };
+
+          (function() {
+              var se = document.createElement("script");
+              se.type = "text/javascript";
+              se.async = true;
+              se.src = __8x8Chat.domain + __8x8Chat.path + "/CHAT/common/js/chat.js";
+
+              var os = document.getElementsByTagName("script")[0];
+              os.parentNode.insertBefore(se, os);
+          })();
+      </script>
 
 
       <h2 class="heading-medium">Post</h2>
